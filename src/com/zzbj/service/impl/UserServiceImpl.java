@@ -1,5 +1,7 @@
 package com.zzbj.service.impl;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -19,5 +21,7 @@ public class UserServiceImpl extends BaseServiceImpl<User>implements UserService
 	public void setBaseDao(BaseDao dao) {
 		super.setBaseDao(dao);
 	}
+
+
 
 }
