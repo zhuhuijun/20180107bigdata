@@ -35,7 +35,7 @@ public class TestDataSourcce {
 		UserService us = (UserService) ac.getBean("userService");
 		for (int i = 0; i < 100; i++) {
 			User u = new User();
-			u.setName("zhuhj" + i);
+			u.setName("aca" + i);
 			u.setAge(33);
 			us.saveEntity(u);
 		}
